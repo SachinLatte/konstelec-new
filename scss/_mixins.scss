@@ -1,0 +1,147 @@
+
+@mixin common-padding{
+    padding: 3% 0;
+    @include breakpoints(480px){
+        padding: 8% 0;
+    }
+}
+@mixin common-heading{
+	font-size: 32px;
+	color: $primary-color;
+	font-weight: 600;
+	line-height: 45px;
+	font-family: $heading-font;
+    margin-bottom: 50px;
+    @include breakpoints(1536px){
+        margin-bottom: 40px;
+    }
+    @include breakpoints(1440px){
+        font-size: 30px;
+    }
+    @include breakpoints(1366px){
+        margin-bottom: 30px;
+    }
+    @include breakpoints(1280px){
+        font-size: 26px;
+        line-height: 40px;
+    }
+    @include breakpoints(768px){
+            margin-bottom: 25px;
+    }
+    @include breakpoints(480px){
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    span{
+            display: inline-block;
+            position: relative;
+            &:before{
+                position: absolute;
+                content:"";
+                background-image: url("../images/prev__arrow.png");
+                left: -60px;
+                width: 68px;
+                height: 79px;
+                transform: scale(0.3);
+                top: -15px;
+                height: 78px;
+                width: 66px;
+                @include breakpoints(480px){
+                    top: -19px;
+                    transform: scale(0.2);
+                    left: -50px;
+                }
+            }
+            &:after{
+                position: absolute;
+                content:"";
+                background-image: url("../images/next__arrow.png");
+                right: -60px;
+                width: 68px;
+                height: 79px;
+                transform: scale(0.3);
+                top: -15px;
+                height: 78px;
+                width: 66px;
+                @include breakpoints(480px){
+                    top: -20px;
+                    transform: scale(0.2);
+                    right: -50px;
+                }
+            }
+        }
+}
+@mixin common-paragraph{
+    font-family: $paragraph-font;
+    color: $text-color;
+    font-size: 16px;
+    line-height: 28px;
+}
+@mixin border-radius ($radius-value){
+    border-radius: $radius-value;
+    -webkit-border-radius: $radius-value;
+    -moz-border-radius:$radius-value;
+}
+
+@mixin box-shadow($top,$left,$blur,$shadow){
+box-shadow:$top $left $blur $shadow;
+-webkit-box-shadow:$top $left $blur $shadow;
+-moz-box-shadow:$top $left $blur $shadow;
+}   
+
+@mixin common-heading-banner{
+	width: 100%;
+	background-image: url("../images/top-banners/contact-top-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+    position: relative;
+    .page-breadcrumbs{
+        position: absolute;
+        bottom: 15px;
+        width: 100%;
+
+        padding: 5px 0;
+        .breadcrumb{
+            margin-bottom: 0!important;
+            a{
+                color: $secondary-color;
+            }
+            .breadcrumb-item{
+                font-size: 15px;
+                font-weight: 400;
+                font-family: $paragraph-font;
+                &.active{
+                    color: $bg-gray;
+                }
+                &::before{
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+    @include breakpoints(1440px){
+		height: 450px;
+	}
+    @include breakpoints(1366px){
+		height: 400px;
+	}
+    @include breakpoints(1024px){
+		height: 325px;
+	}
+    @include breakpoints(480px){
+		height: 215px;
+	}
+}
+
+@mixin about-para{
+    font-size: 18px;
+    color: $primary-color;
+    font-family: $heading-font;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 0;
+}
+
+
+

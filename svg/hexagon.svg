@@ -1,0 +1,18 @@
+<svg style="display: none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="svg-hexagon-h" viewbox="0 0 20 20">
+            <polygon cx="10" cy="10" edge="8.57" orient="x" shape="regularPoly" sides="6"
+                     points="18.56997525025269,
+                             10                 14.284987625126345,
+                             17.42181627652273   5.715012374873658,
+                             17.42181627652273   1.4300247497473126,
+                             10                  5.715012374873653,
+                              2.578183723477272 14.284987625126345,
+                              2.578183723477271 18.56997525025269,
+                             10" />
+        </symbol>
+        <symbol id="svg-hexagon-v" viewBox="0 0 20 20">
+            <use href="#svg-hexagon-h" transform="rotate(90, 10, 10)" />
+        </symbol>
+    </defs>
+</svg>

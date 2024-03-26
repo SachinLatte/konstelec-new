@@ -1,0 +1,134 @@
+.about-top-banner-section{
+	@include common-heading-banner;
+	background-image: url("../images/top-banners/about-top-banner.png");
+}
+.awards-achievements-top-banner-section{
+	@include common-heading-banner;
+	background-image: url("../images/top-banners/awards-achievement-top-banner.png");
+}
+.chairman-top-banner-section{
+	@include common-heading-banner;
+	background-image: url("../images/top-banners/chairman-top-banner.png");
+}
+.career-top-banner-section{
+	@include common-heading-banner;
+	background-image: url("../images/top-banners/chairman-top-banner.png");
+}
+.contact-top-banner-section{
+	&.clients-bg{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/our-clients-top-banner.jpg");
+	}
+	&.financial-info-bg{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/financial-information-top-banner.jpg");
+	}
+    &.annual-return-bg{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/annual-return-top-banner.jpg");
+	}
+    &.notice-to-members-bg{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/notice-to-members-top-banners.jpg");
+	}
+    &.corporate-governance-to-members-bg{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/corporate-governance-top-banner.jpg");
+	}
+    &.shareholding-pattern-bg{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/shareholding-pattern-top-banner.jpg");
+	}
+    &.offer-document-pattern-bg{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/offer-document-top-banner.jpg");
+	}
+    &.career-top-banner-bg{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/career-top-banner.jpg");
+	}
+	&.engineering-design-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/engineering-design-top-banner.jpg");
+	}
+	&.csr-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/csr-top-Banner.jpg");
+	}
+	&.hr-policies-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/hr-policies-top-Banner.jpg");
+	}
+	&.engineering-design-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/services/engineering-design-top-Banner.jpg");
+	}
+	&.engineering-project-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/services/engineering-project-top-Banner.jpg");
+	}
+	&.procurement-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/services/procurement-top-Banner.jpg");
+	}
+	&.operation-maintenance-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/services/operation-maintenance-top-Banner.jpg");
+	}
+	&.project-management-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/services/project-management-top-Banner.jpg");
+	}
+	&.construction-commissioning-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/services/construction-commissioning-top-Banner.jpg");
+	}
+	&.power-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/power-top-Banner.jpg");
+	}
+	&.solar-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/solar-top-Banner.jpg");
+	}
+	&.steel-cement-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/steel-cement-top-Banner.jpg");
+	}
+	&.services-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/steel-cement-top-Banner.jpg");
+	}
+	&.substation-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/substation-switch-yard-top-Banner.jpg");
+	}
+	&.port-pharmaceutical-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/port-pharma-top-Banner.jpg");
+	}
+	&.international-projects-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/international-projects-top-Banner.jpg");
+	}
+	&.hydrocarbon-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/hydrocarbon-top-banner.jpg");
+	}
+	&.services-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/services-top-banner.jpg");
+	}
+	&.projects-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/projects-top-banner.jpg");
+	}
+	&.career-landing-top-banner-bg{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/career-landing-page-top-banner.jpg");
+	}
+	&.resources-top-banner{
+		@include common-heading-banner;
+		background-image: url("../images/top-banners/resources-top-banner.jpg");
+	}
+}
